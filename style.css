@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: lemonchiffon;
+}
+header{
+    background-color: rgb(80, 10, 10);
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0%;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a{
+    color: white;
+}
+main{
+    padding: 2rem;
+    background-color: white;
+}
+footer{
+    background-color: rgb(80, 10, 10);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position:none;
+}
+.image-section{
+    display: flex;
+    justify-content: space-around;
+}
+.white{
+    width: 420px;
+    height: 300px;
+}
+.video_section{
+    margin: 2rem;
+    text-align: center;
+}
+#Homesection{
+    text-align: center;
+}
+#about{
+    text-align: center;
+}
+h2 {
+    color: #333;
+    text-align: center;
+}
+p {
+    text-align: center;
+    color: #666;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+label {
+    margin-bottom: 5px;
+    color: #333;
+}
+input, textarea, select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+button {
+    padding: 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.contact-info {
+    text-align: center;
+    margin-top: 30px;
+}
+.service img{
+    display: flex;
+    justify-content: space-around;
+width: 420px;
+height: 300px;
+}
+.container{
+    background-color: white;
+}
+#media img{
+    display: flex;
+    justify-content: space-around;  
+}
